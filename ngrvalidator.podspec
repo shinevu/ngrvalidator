@@ -27,5 +27,6 @@ Pod::Spec.new do |s|
   s.header_dir    = 'NGRValidator'
   s.private_header_files = 'NGRValidator/NGRValidator/Headers/Private/*'
   s.preserve_paths = 'Scripts/*'
+  s.swift_version = '4.2'
 
 end
